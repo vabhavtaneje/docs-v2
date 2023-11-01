@@ -79,30 +79,41 @@ brew list | grep influxdb-cli
 
     Do one of the following:
     
-    - Double-click the downloaded package file in **Finder**.
-    - Run the following command in a macOS command prompt application such
-    **Terminal** or **[iTerm2](https://www.iterm2.com/)**:
+    - In **Finder**, double-click the downloaded package file.
+    - In your terminal (for example, **Terminal** or **[iTerm2](https://www.iterm2.com/)**), use `tar` to unpackage the file--for example, enter the following command to extract it into the current directory:
 
         ```sh
-        # Unpackage contents to the current working directory
         tar zxvf ~/Downloads/influxdb2-client-{{< latest-patch cli=true >}}-darwin-amd64.tar.gz
         ```
 
-3. **(Optional) Place the binary in your `$PATH`.**
+3. Optional: Place the `influx` binary in your `$PATH`--for example, copy the binary to `/usr/local/bin`:
 
     ```sh
-    # (Optional) Copy the influx binary to your $PATH
     sudo cp ~/Downloads/influxdb2-client-{{< latest-patch cli=true >}}-darwin-amd64/influx /usr/local/bin/
     ```
 
-    If you do not move the `influx` binary into your `$PATH`, prefix the executable
-    `./` to run it in place.
+    With the `influx` binary in your `$PATH` (`/usr/local/bin`), you can enter `influx` in your terminal to use the CLI.
+
+    If you do not move the `influx` binary into your `$PATH`, enter the path to the binary to use the CLI.
 
 4. **(macOS Catalina and newer) Authorize the `influx` binary.**
 
     macOS requires downloaded binaries to be signed by registered Apple developers.
-    When you first attempt to run `influx`, macOS will prevent it from running.
+    When you first attempt to run `influx`, macOS prevents it from running.
     To authorize the `influx` binary:
+
+    **Allow the binary on macOS Ventura**
+
+    1.  Follow the preceding instructions to attempt to start `influx`.
+    2.  Open **System Settings** and click **Privacy & Security**.
+    3.  Under the **Security** heading, there is a message about "influxd" being blocked, click **Allow Anyway**.
+    5.  When prompted, enter your password to allow the setting.
+    6.  Close **System Settings**.
+    7.  Attempt to start `influx`.
+    8.  A prompt appears with the message _"macOS cannot verify the developer of "influx"...""_.
+        Click **Open**.
+
+    **Allow the binary on macOS Catalina**
 
     1. Attempt to run an `influx` command.
     2. Open **System Preferences** and click **Security & Privacy**.
@@ -127,38 +138,52 @@ brew list | grep influxdb-cli
 
     #### Download from the command line
 
-    ```sh
-    # amd64
-    wget https://dl.influxdata.com/influxdb/releases/influxdb2-client-{{< latest-patch cli=true >}}-linux-amd64.tar.gz
+    - **amd64**
 
-    # arm
-    wget https://dl.influxdata.com/influxdb/releases/influxdb2-client-{{< latest-patch cli=true >}}-linux-arm64.tar.gz
-    ```
+      ```sh
+      wget https://dl.influxdata.com/influxdb/releases/influxdb2-client-{{< latest-patch cli=true >}}-linux-amd64.tar.gz
+      ```
 
-4. **Unpackage the downloaded package.**
+    - **arm64**
+
+      ```sh
+      wget https://dl.influxdata.com/influxdb/releases/influxdb2-client-{{< latest-patch cli=true >}}-linux-arm64.tar.gz
+      ```
+
+4. Unpackage the downloaded binary.
 
     _**Note:** The following commands are examples. Adjust the filenames, paths, and utilities if necessary._
 
+    - **amd64**
+
+      ```sh
+      tar xvzf path/to/influxdb2-client-{{< latest-patch cli=true >}}-linux-amd64.tar.gz
+      ```
+
+    - **arm64**
+
+      ```sh
+      tar xvzf path/to/influxdb2-client-{{< latest-patch cli=true >}}-linux-arm64.tar.gz
+      ```
+
+3. Optional: Place the unpackaged `influx` executable in your system `$PATH`.**
+
+    - **amd64**
+
+      ```sh
+      sudo cp influxdb2-client-{{< latest-patch cli=true >}}-linux-amd64/influx /usr/local/bin/
+      ```
+    - **arm64**
+
+      ```sh
+      sudo cp influxdb2-client-{{< latest-patch cli=true >}}-linux-arm64/influx /usr/local/bin/
+      ```
+
+    If you do not move the `influxd` binary into your `$PATH`, enter the path to the binary to start the server--for example:
+
     ```sh
-    # amd64
-    tar xvzf path/to/influxdb2-client-{{< latest-patch cli=true >}}-linux-amd64.tar.gz
-
-    # arm
-    tar xvzf path/to/influxdb2-client-{{< latest-patch cli=true >}}-linux-arm64.tar.gz
+    ./influx
     ```
-
-3. **(Optional) Place the unpackaged `influx` executable in your system `$PATH`.**
-
-    ```sh
-    # amd64
-    sudo cp influxdb2-client-{{< latest-patch cli=true >}}-linux-amd64/influx /usr/local/bin/
-
-    # arm
-    sudo cp influxdb2-client-{{< latest-patch cli=true >}}-linux-arm64/influx /usr/local/bin/
-    ```
-
-    If you do not move the `influx` binary into your `$PATH`, prefix the executable
-    `./` to run it in place.
 
 {{% /tab-content %}}
 <!--------------------------------- END Linux --------------------------------->
