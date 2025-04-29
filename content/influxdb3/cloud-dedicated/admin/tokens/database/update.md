@@ -3,7 +3,7 @@ title: Update a database token
 description: >
   Use the Admin UI, the [`influxctl token update` command](/influxdb3/cloud-dedicated/reference/cli/influxctl/token/update/),
     or the [Management HTTP API](/influxdb3/cloud-dedicated/api/management/)
-  to update a database token's permissions in your InfluxDB Cloud Dedicated cluster.
+  to update a database token's permissions in your {{< product-name omit=" Clustered" >}} cluster.
 menu:
   influxdb3_cloud_dedicated:
     parent: Database tokens

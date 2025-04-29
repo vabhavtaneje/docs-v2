@@ -1,9 +1,9 @@
 ---
 title: View account information
-seotitle: View InfluxDB Cloud Dedicated account information
+seotitle: View {{% product-name %}} account information
 description: >
-  Use the Admin UI for {{% product-name %}} to view information Cloud Dedicated account.
-  Your InfluxDB Cloud Dedicated account is a collection of InfluxDB Cloud Dedicated clusters and associated resources.
+  Use the Admin UI for {{% product-name %}} to view information for your Cloud Dedicated account.
+  Your {{% product-name %}} account is a collection of InfluxDB Cloud Dedicated clusters and associated resources.
 menu:
   influxdb3_cloud_dedicated:
     parent: Administer InfluxDB Cloud

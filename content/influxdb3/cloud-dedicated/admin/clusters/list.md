@@ -20,8 +20,8 @@ to view information about all {{< product-name omit=" Clustered" >}} clusters as
 
 {{< tabs-wrapper >}}
 {{% tabs %}}
-[Admin UI](#admin-ui)
-[CLI](#cli)
+[Admin UI](#)
+[influxctl](#)
 {{% /tabs %}}
 {{% tab-content %}}
 ## Access the Cloud Dedicated Admin UI
@@ -53,6 +53,7 @@ The cluster list displays the following cluster details:
 ## Use the CLI
 
 1.  If you haven't already, [download and install the `influxctl` CLI](/influxdb3/cloud-dedicated/reference/cli/influxctl/#download-and-install-influxctl), and then [configure a connection profile](/influxdb3/cloud-dedicated/reference/cli/influxctl/#configure-connection-profiles) for your cluster.
+
 2.  Run `influxctl cluster list` with the following:
 
     - _Optional_: [Output format](#output-formats)
