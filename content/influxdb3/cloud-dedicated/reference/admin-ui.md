@@ -1,26 +1,34 @@
 ---
-title: Use the Admin UI
-seotitle: Use the Admin UI for InfluxDB Cloud Dedicated
+title: Administrative UI 
+seotitle: Administrative UI for {{% product-name %}}
 description: >
-  The Admin UI for {{% product-name %}} provides a no-code way to manage your {{% product-name %}} environment.
-  Use the Admin UI to view your {{% product-name %}} account information and manage cluster resources, such as tokens and databases.
+  The Administrative (Admin) UI for {{% product-name %}} is a browser-based, no-code way to manage your {{% product-name %}} environment and perform administrative tasks, such as creating and managing clusters, databases, and tokens.
 menu:
   influxdb3_cloud_dedicated:
-    parent: Administer InfluxDB Cloud
+    parent: Reference 
 weight: 6
 ---
 
-The Admin UI for {{% product-name %}} provides a no-code way to manage your {{% product-name %}} environment.
-Use the Admin UI to view your {{% product-name %}} account information and manage cluster resources, such as tokens and databases.
+The Administrative (Admin) UI for {{% product-name %}} is a browser-based, no-code way to manage your {{% product-name %}} environment and perform administrative tasks, such as creating and managing clusters, databases, and tokens.
 
-## Access the Cloud Dedicated Admin UI
+- [Access the Admin UI](#access-the-admin-ui)
+- [Account management](#account-management)
+- [Resource management](#resource-management)
+  - [Manage clusters](#manage-clusters)
+  - [Manage databases](#manage-databases)
+  - [Manage tables](#manage-tables)
+  - [Manage database tokens](#manage-database-tokens)
+  - [Additional Features](#additional-features)
+
+
+## Access the Admin UI
 
 <img src="/img/influxdb3/cloud-dedicated-admin-ui-login.png" alt="InfluxDB Cloud Dedicated Admin UI login page" />
 
-Cloud Dedicated customers can access the Admin UI at [console.influxdata.com](http://console.influxdata.com) using the credentials provided by InfluxData.
+Customers can access the Admin UI at [console.influxdata.com](http://console.influxdata.com) using the credentials provided by InfluxData.
 If you don't have login credentials, [contact InfluxData support](https://support.influxdata.com).
 
-After you log in to the Admin UI, the Account Management portal lets you view your account information and manage your InfluxDB Cloud Dedicated resources.
+After you log in to the Admin UI, the Account Management portal provides an entrypoint to view your account information and manage your {{% product-name %}} resources.
 
 ## Account management
 
@@ -37,8 +45,7 @@ For more information, see the following:
 
 ## Resource management
 
-
-The Admin UI lets you manage InfluxDB Cloud Dedicated resources, such as databases,
+The Admin UI lets you manage {{% product-name %}} resources, such as databases,
 tables, and tokens, associated with a cluster. 
 
 - [Manage clusters](#manage-clusters)
