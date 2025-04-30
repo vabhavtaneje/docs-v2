@@ -67,18 +67,11 @@ managing databases.
    can sort on column headers or use the **Search** field to find a specific cluster.
 4.  Click the options button (three vertical dots) to the right of the token you want to revoke.
     The options menu displays.
-6.  In the options menu, click **Delete Database**. 
-7.  In the **Delete Database** dialog, check the box to confirm that you "understand the risk of this action".
-8.  Click the **Delete Database** button to delete the database.
+5.  In the options menu, click **Delete Database**. The **Delete Database** dialog displays. 
+6.  In the **Delete Database** dialog, check the box to confirm that you "understand the risk of this action".
+7.  Click the **Delete Database** button to delete the database.
 
-    <img src="/img/influxdb3/cloud-dedicated-admin-ui-create-database.png" alt="Create database dialog" /> 
-6. In the **Create Database** dialog, provide the following information:
-   - **Database name**: The name of the database to create. See [Database naming restrictions](#database-naming-restrictions).
-   - **Retention period**: The retention period for the database. See [Retention period syntax (influxctl CLI)](#retention-period-syntax-influxctl-cli).
-   - **Max tables**: The maximum number of tables (measurements) allowed in the database. Default is 500.
-   - **Max columns per table**: The maximum number of columns allowed in each table (measurement). Default is 250.
-7. Click the **Create Database** button to create the database.
-   The new database displays in the list of databases for the cluster.
+    <img src="/img/influxdb3/cloud-dedicated-admin-ui-delete-database.png" alt="Create database dialog" /> 
 {{% /tab-content %}}
 {{% tab-content %}}
 
