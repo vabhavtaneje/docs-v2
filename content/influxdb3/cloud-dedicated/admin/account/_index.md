@@ -11,8 +11,8 @@ weight: 101
 influxdb3/cloud-dedicated/tags: [clusters]
 ---
 
-Use the Admin UI for {{% product-name %}} to view information Cloud Dedicated account.
-Your InfluxDB Cloud Dedicated account is a collection of InfluxDB Cloud Dedicated clusters and associated resources.
+Use the Admin UI for {{% product-name %}} to view information for your {{% product-name omit="InfluxDB " %}} account.
+Your {{% product-name %}} account is a collection of {{% product-name omit="Clustered "%}} clusters and associated resources.
 
 - [Access the Admin UI](#access-the-admin-ui)
 - [View account information](#view-account-information)

@@ -26,9 +26,9 @@ to revoke a management token and remove all access associated with the token.
 {{% /tabs %}}
 {{% tab-content %}}
 <!------------------------------BEGIN ADMIN UI ------------------------------>
-The InfluxDB Cloud Dedicated administrative UI includes a portal for managing management tokens.
+The {{% product-name %}} administrative UI includes a portal for managing management tokens.
 
-1.  To access the {{< product-name >}} Admin UI, visit the following URL in your browser:
+1.  To access the {{< product-name omit="InfluxDB " >}} Admin UI, visit the following URL in your browser:
 
     <pre>
     <a href="https://{{< influxdb/host >}}/">https://{{< influxdb/host >}}</a>

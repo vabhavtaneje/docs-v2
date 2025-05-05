@@ -62,12 +62,11 @@ managing databases.
 
    After you log in, the Account Management portal displays [account information](/influxdb3/cloud-dedicated/admin/account/)
    and lists all clusters associated with your account.
-3. You can **Search** for clusters by name or ID to filter the list and use the sort button and column headers to sort the list. 
-4. Click the cluster row to view the list of databases associated with the cluster.
-5. Find the database you want to update.
+3. Click a cluster row to view the list of databases associated with the cluster. You can **Search** for clusters by name or ID to filter the list and use the sort button and column headers to sort the list. 
+4. Find the database you want to update.
    You can **Search** for databases by name or ID to filter the list and use the sort button and column headers to sort the list. 
-6. To set the retention period, click the options button (3 vertical dots) to the right of the database.
-7. In the options menu, click **Set Retention Period**.
+5. To set the retention period, click the options button (3 vertical dots) to the right of the database.
+6. In the options menu, click **Set Retention Period**.
 {{% /tab-content %}}
 {{% tab-content %}}
 

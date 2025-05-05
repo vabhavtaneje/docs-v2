@@ -71,7 +71,7 @@ managing databases.
 6.  In the **Delete Database** dialog, check the box to confirm that you "understand the risk of this action".
 7.  Click the **Delete Database** button to delete the database.
 
-    <img src="/img/influxdb3/cloud-dedicated-admin-ui-delete-database.png" alt="Create database dialog" /> 
+{{< img-hd src="/img/influxdb3/cloud-dedicated-admin-ui-delete-database.png" alt="Create database dialog" />}} 
 {{% /tab-content %}}
 {{% tab-content %}}
 
