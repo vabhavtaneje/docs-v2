@@ -42,6 +42,7 @@ to list tables in a database.
 The InfluxDB Cloud Dedicated administrative UI includes a portal for managing
 tables. You can view the list of tables associated with a database and
 their details, including:
+
 - Name
 - Table ID
 - Table size (in bytes) 

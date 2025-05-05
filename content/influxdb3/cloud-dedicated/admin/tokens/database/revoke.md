@@ -75,7 +75,7 @@ Administrators can use this portal to:
 8.  In the options menu, click **Revoke Token**.
     The **Revoke Database Token** dialog displays.
 
-    <img src="/img/influxdb3/cloud-dedicated-admin-ui-revoke-database-token.png" alt="Revoke database token dialog" /> 
+    {{< img-hd src="/img/influxdb3/cloud-dedicated-admin-ui-revoke-database-token.png" alt="Revoke database token dialog" />}}
 
 9.  Check the box to confirm that you understand the risk.
 10. Click the **Revoke Token** button.

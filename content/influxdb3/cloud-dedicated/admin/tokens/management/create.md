@@ -61,7 +61,7 @@ and managing management tokens.
 4. In the Management Tokens portal, click the **New Management Token** button. 
    The **Create Management Token** dialog displays.
 
-   <img src="/img/influxdb3/cloud-dedicated-admin-ui-create-management-token.png" alt="Create management token dialog" /> 
+   {{< img-hd src="/img/influxdb3/cloud-dedicated-admin-ui-create-management-token.png" alt="Create management token dialog" />}}
 
 5. You can optionally set the following fields:
    - **Expiration date**: Set an expiration date for the token

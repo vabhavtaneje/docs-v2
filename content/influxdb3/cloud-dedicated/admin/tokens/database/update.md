@@ -91,11 +91,11 @@ Through this portal, administrators can edit a token's permissions to:
     Use the sort and filter options above the list to find a specific token.
 7.  Click the **Options** button (three vertical dots) to the right of the token you want to edit.
     
-    <img src="/img/influxdb3/cloud-dedicated-admin-ui-database-token-options-menu.png" alt="Database token option menu" />
+    {{< img-hd src="/img/influxdb3/cloud-dedicated-admin-ui-database-token-options-menu.png" alt="Database token option menu" />}}
 
 8.  Click **Edit Token** in the dropdown menu. The **Edit Database Token** dialog displays.
 
-    <img src="/img/influxdb3/cloud-dedicated-admin-ui-edit-database-token.png" alt="Edit Database Token dialog" />
+    {{< img-hd src="/img/influxdb3/cloud-dedicated-admin-ui-edit-database-token.png" alt="Edit Database Token dialog" />}}
 
 9.  In the **Edit Database Token** dialog, you can edit the token's **Description** and permissions.
 

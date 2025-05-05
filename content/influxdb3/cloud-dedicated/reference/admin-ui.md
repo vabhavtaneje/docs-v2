@@ -23,7 +23,7 @@ The Administrative (Admin) UI for {{% product-name %}} is a browser-based, no-co
 
 ## Access the Admin UI
 
-<img src="/img/influxdb3/cloud-dedicated-admin-ui-login.png" alt="InfluxDB Cloud Dedicated Admin UI login page" />
+{{< img-hd src="/img/influxdb3/cloud-dedicated-admin-ui-login.png" alt="InfluxDB Cloud Dedicated Admin UI login page" />}}
 
 Customers can access the Admin UI at [console.influxdata.com](http://console.influxdata.com) using the credentials provided by InfluxData.
 If you don't have login credentials, [contact InfluxData support](https://support.influxdata.com).
@@ -32,7 +32,7 @@ After you log in to the Admin UI, the Account Management portal provides an entr
 
 ## Account management
 
-<img src="/img/influxdb3/cloud-dedicated-admin-ui-clusters-options.png" alt="InfluxDB Cloud Dedicated Admin UI account management cluster list" />
+{{< img-hd src="/img/influxdb3/cloud-dedicated-admin-ui-clusters-options.png" alt="InfluxDB Cloud Dedicated Admin UI account management cluster list" />}}
 
 - View account details and associated clusters
 - Create, view, and manage management tokens for account-level operations
@@ -55,7 +55,7 @@ tables, and tokens, associated with a cluster.
 
 ### Manage clusters
 
-<img src="/img/influxdb3/cloud-dedicated-admin-ui-clusters-options.png" alt="InfluxDB Cloud Dedicated Admin UI cluster options" />
+{{< img-hd src="/img/influxdb3/cloud-dedicated-admin-ui-clusters-options.png" alt="InfluxDB Cloud Dedicated Admin UI cluster options" />}}
 
 - View cluster IDs, statuses, creation date, and sizing information
 - Access Grafana dashboards for operational monitoring (if enabled for the account)
@@ -65,7 +65,7 @@ For more information, see [Manage clusters](/influxdb3/cloud-dedicated/admin/clu
 
 ### Manage databases
 
-<img src="/img/influxdb3/cloud-dedicated-admin-ui-databases.png" alt="InfluxDB Cloud Dedicated Admin UI cluster resources databases list" />
+{{< img-hd src="/img/influxdb3/cloud-dedicated-admin-ui-databases.png" alt="InfluxDB Cloud Dedicated Admin UI cluster resources databases list" />}}
 
 - Create and delete databases
 - Update retention periods
@@ -76,7 +76,7 @@ For more information, see [Manage databases](/influxdb3/cloud-dedicated/admin/da
 
 ### Manage tables
 
-<img src="/img/influxdb3/cloud-dedicated-admin-ui-tables.png" alt="InfluxDB Cloud Dedicated Admin UI database tables list" />
+{{< img-hd src="/img/influxdb3/cloud-dedicated-admin-ui-tables.png" alt="InfluxDB Cloud Dedicated Admin UI database tables list" />}}
 
 - View tables associated with databases
 - See table IDs and sizes
@@ -86,7 +86,7 @@ For more information, see [Manage tables](/influxdb3/cloud-dedicated/admin/table
 
 ### Manage database tokens
 
-<img src="/img/influxdb3/cloud-dedicated-admin-ui-database-tokens.png" alt="InfluxDB Cloud Dedicated Admin UI manage database tokens portal" />
+{{< img-hd src="/img/influxdb3/cloud-dedicated-admin-ui-database-tokens.png" alt="InfluxDB Cloud Dedicated Admin UI manage database tokens portal" />}}
 
 - Create and manage authentication tokens for database-level operations
 - Edit permissions or revoke existing tokens

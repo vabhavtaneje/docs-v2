@@ -82,7 +82,7 @@ The InfluxDB Cloud Dedicated administrative UI includes a portal for creating an
 7.  In the Database Tokens portal, click the **New Database Token** button. 
    The **Create Database Token** dialog displays.
 
-   <img src="/img/influxdb3/cloud-dedicated-admin-ui-create-database-token.png" alt="Create database token dialog" /> 
+   {{< img-hd src="/img/influxdb3/cloud-dedicated-admin-ui-create-database-token.png" alt="Create database token dialog" />}}
 
 8. Add a token description.
    The description is used to identify the token in the list of tokens. 

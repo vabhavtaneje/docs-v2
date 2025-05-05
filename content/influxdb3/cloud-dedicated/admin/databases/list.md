@@ -61,7 +61,7 @@ The database list displays the following database details:
 
 You can **Search** for databases by name or ID to filter the list and use the sort button and column headers to sort the list. 
 
-   <img src="/img/influxdb3/cloud-dedicated-admin-ui-list-databases.png" alt="List databases" /> 
+{{< img-hd src="/img/influxdb3/cloud-dedicated-admin-ui-list-databases.png" alt="List databases" />}} 
 
 ### Database management tools
 
